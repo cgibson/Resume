@@ -6,6 +6,8 @@
 
 \documentclass[margin,line]{resume}
 
+\usepackage{graphicx}
+
 \begin{document}
 
 \name{\huge Christopher Gibson}
@@ -24,8 +26,7 @@
     % Interests
     \section{\mysidestyle \textbf{\large{P}\small{ROJECT\\INTERESTS}}}
 
-	Computer graphics, graphics application development, visualization of data, real-time and \\
-	rendered graphics.
+	Computer graphics, graphics application development, visualization of data, real-time and pre-rendered graphics, massively parallel graphics applications
 
 \sectionline
 
@@ -36,7 +37,7 @@
     \textbf{\listing California Polytechnic University}, San Luis Obispo, California \vspace{2mm}\\\vspace{1mm}%
     \textsl{B.S/M.S of Computer Science} \hfill \textbf{ September 2006 -- present}\vspace{-3mm}\\\vspace{-1mm}%
     \begin{list2}
-    	\item Accepted into blended "4+1" B.S + M.S Program in 2009
+    	\item Accepted into blended ``4+1" B.S + M.S Program in 2009
         \item Masters concentration in computer graphics
         \item Expected graduation date: June 2011
         \item Advisors:  Dr. Zo\"{e} J. Wood
@@ -84,9 +85,16 @@
 	\vspace{1mm} % Used to offset a strange alignment error between title and contents
 	\begin{tabular}{@{}p{6cm}p{6cm}}
 	-Distributed Systems     &  -Graduate Computer Graphics   \\
-	-Parallel Computing      &  -Advanced Rendering Techniques    \\
-	-Real-Time Graphics      &  -Graphics Animations                   \\
+	-Parallel Computing      &  -Advanced Rendering Techniques\\
+	-Real-Time Graphics      &  -Graphics Animations          \\
 	\end{tabular}
+
+	\textbf{\listing Cal Poly CUDA Class}\\\vspace{1mm}%
+	\textsl{Teaching Assistant} \hfill \textbf{ January 2011 -- present}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+    	\item Designed and developed labs and lab resources for students
+        \item Helped combine the ray tracing and CUDA class for three weeks
+    \end{list2}\vspace{-1.5mm}
 
 	\textbf{\listing Cal Poly Game Development Club}\\\vspace{1mm}%
 	\textsl{President}\hfill \textbf{ November 2009 -- present}\vspace{-3mm}\\\vspace{-1mm}%
@@ -103,9 +111,29 @@
 
     %__________________________________________________________________________________________________________________
     % Computer Skills
+    \section{\mysidestyle \textbf{\large{P}\small{ROJECTS}}}
+
+    \vspace{1mm}\hspace{2mm}\includegraphics[width=10mm]{mrvoxel.png}\vspace{-15mm}
+
+	\begin{tabular}{@{}p{1.0cm}p{6cm}p{1.0cm}p{6cm}}
+	\hspace{1mm}&
+    \textbf{\listing Mr. Voxel}\hspace{2mm}\textsl{(Thesis)} &
+    &
+    \textbf{\listing Haste}\\&
+    \textsl{Voxel Rendering/Lighting Library}&
+    &
+    \textsl{Massively Parallel CUDA Ray Tracer}\\&
+    http://github.com/cgibson/Mr-Voxel&
+    \hspace{1mm}&http://github.com/cphaste/haste\\
+	\end{tabular}
+\vspace{-1mm}
+\sectionline
+
+    %__________________________________________________________________________________________________________________
+    % Computer Skills
     \section{\mysidestyle \textbf{\large{S}\small{KILLS}}}
 
-    C, C++, Lua, PHP, Java, Python, Linux shell scripting, \LaTeX.
+    C,\hspace{2mm}C++,\hspace{2mm}Lua,\hspace{2mm}PHP,\hspace{2mm}Java,\hspace{2mm}CUDA\textsl{\small(learning)},\hspace{2mm}Python\textsl{\small(learning)},\hspace{2mm}Linux shell scripting,\hspace{2mm}\LaTeX.
 
 
 \sectionline
@@ -113,15 +141,7 @@
 %______________________________________________________________________________________________________________________
 \section{\mysidestyle \textbf{\large{R}\small{EFERENCES}}}
 
-\vspace{1mm} % Used to offset a strange alignment error between title and contents
-\begin{tabular}{@{}p{6cm}p{6cm}}
-\textbf{Dr. Zo\"{e} J. Wood}            &  \textbf{Dr. Ignatios E. Vakalis}         \\
-Professor                               &  Computer Science Department Chair        \\
-California Polytechnic University,      &  California Polytechnic University,       \\
-San Luis Obispo, CA                     &  San Luis Obispo, CA                      \\
-phone: \textsl{available on request}    &  phone: \textsl{available on request}     \\
-e-mail: \textsl{available on request}   &  e-mail: \textsl{available on request}    \\
-\end{tabular}
+    \textsl{References available on request}
 
 \end{resume}
 \end{document}
