@@ -6,7 +6,7 @@
 % Original document by Michael DeCorte
 %
 \usepackage{color}
-\definecolor{ColorOne}{rgb}{0.05,0.1,0.5}
+\definecolor{ColorOne}{rgb}{0.7,0.05,0.05}
 \typeout{Document Style `resume' <26 Sep 89, Dec 07>.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -447,7 +447,7 @@
 \let\@@section\relax
 \def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let\@@section\unboxed@sectiontitle\fi}
 %\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let\@@section\boxed@sectiontitle\fi}
-\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.1in}\let\@@section\boxed@sectiontitle\fi}
+\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.4in}\let\@@section\boxed@sectiontitle\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFAULTS: (some of them)
@@ -841,9 +841,14 @@
       \setlength{\leftmargin}{0.25in}}}{\end{list}}
 
 %\newcommand{\mysidestyle}{\footnotesize\sc}
-\newcommand{\mysidestyle}{\textbf\small\sc\color{ColorOne}}
+\newcommand{\mysidestyle}{\textbf\sc\color{ColorOne}}
 \newcommand{\myheadingstyle}{\sl}
 \newcommand{\mysubheadingstyle}{\sl}
+
+\newcommand{\listing}{\large}
+
+
+\newcommand{\sectionline}{\vspace*{-4mm}\par\hspace*{-36mm}\color{ColorOne}\hrulefill\\\color{black}\vspace*{-8mm}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
