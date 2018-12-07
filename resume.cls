@@ -834,7 +834,7 @@
       \setlength{\leftmargin}{0in}}}{\end{list}}
 
 \newenvironment{list2}{
-  \begin{list}{$\bullet$}{%
+  \begin{list}{$\triangleright$}{%
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
